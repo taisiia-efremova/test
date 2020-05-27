@@ -1,0 +1,64 @@
+{
+    "books":{
+       "classic": [{
+            "id":"1",
+            "name":"War and piece",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":32,
+            "image":"https://i.ibb.co/6yhGMXC/tutor-1.jpg"
+        },
+        {
+            "id":"2",
+            "name":"1948",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":43,
+            "image":"https://i.ibb.co/vVG6Gnx/tutor-4.jpg"
+        }
+    ],
+        "adventure":[{
+            "id":"1",
+            "name":" Don Quixote",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":32,
+            "image":"https://i.ibb.co/dGqRvbJ/tutor-2.jpg"
+        },
+        {
+            "id":"2",
+            "name":" Treasure Island ",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":43,
+            "image":"https://i.ibb.co/5R1Q2JJ/tutor-7.jpg"
+        }]
+    },
+    "phones":{
+        "android": [{
+            "id":"1",
+            "name":"Xiaomi 9",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":332,
+            "image":"https://i.ibb.co/znfzBYb/tutor-5.jpg"
+        },
+        {
+            "id":"2",
+            "name":"Xiaomi 10",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":443,
+            "image":"https://i.ibb.co/5R1Q2JJ/tutor-7.jpg"
+        }
+    ],
+        "iphone":[{
+            "id":"1",
+            "name":" iphone S6",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":132,
+            "image":"https://i.ibb.co/nnfQ2x9/tutor-10.jpg"
+        },
+        {
+            "id":"2",
+            "name":" Iphone 9",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+            "price":1243,
+            "image":"https://i.ibb.co/znfzBYb/tutor-5.jpg"
+        }]
+     }
+}
