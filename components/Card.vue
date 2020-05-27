@@ -2,7 +2,9 @@
    <div class="wrap">
         <div class="card" >
             <div class="card_img">
+                <nuxt-link to="`/books/adventure/${data.id}`">
                 <img :src='image' alt="">  
+                </nuxt-link>
             </div>
             <div class='card_text'>
                 <h3 class='title'>{{name}}</h3>
@@ -16,7 +18,7 @@
 <script>
 export default {
 
- props: ['image', 'name', 'description','price'],
+ props: ['image', 'name', 'description','price','route'],
 }
 </script>
 

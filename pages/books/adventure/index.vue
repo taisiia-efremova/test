@@ -6,14 +6,15 @@
         :name='data.name'
         :description='data.description'
         :price='data.price'
+        :route='`/books/adventure/${data.id}`'
          />
      
     </div>
 </template>
 
 <script>
-import json from '../../db/database.json';
-import Card from '../../components/Card';
+import json from '../../../db/database.json';
+import Card from  '../../../components/Card.vue';
 
 export default {
   components: {
@@ -23,7 +24,8 @@ export default {
    image: String,
    name: String,
    description:String,
-   price:Number
+   price:Number,
+   route:String
 },
      data(){
               return{

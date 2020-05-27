@@ -11,14 +11,13 @@
 </template>
 
 <script>
-import json from '../../db/database.json';
-import Card from '../../components/Card';
-
+import json from '../../../db/database.json';
+import Card from  '../../../components/Card.vue';
 export default {
  components: {
     Card 
   },
-props: {
+ props: {
    image: String,
    name: String,
    description:String,
@@ -26,7 +25,7 @@ props: {
 },
  data(){
     return{
-         myJson: json.phones.iphone
+         myJson: json.phones.android
           }
         }
 }
