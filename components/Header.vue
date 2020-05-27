@@ -32,11 +32,4 @@ export default {
     list-style:none;
     padding: 10px;
 }
-
-
-
-
-.links {
-  padding-top: 15px;
-}
 </style>

@@ -2,7 +2,7 @@
    <div class="wrap">
         <div class="card" >
             <div class="card_img">
-                <nuxt-link to="`/books/adventure/${data.id}`">
+                <nuxt-link to='${route}'>
                 <img :src='image' alt="">  
                 </nuxt-link>
             </div>

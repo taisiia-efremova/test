@@ -6,7 +6,7 @@
         :name='data.name'
         :description='data.description'
         :price='data.price'
-        :route='`/books/adventure/${data.id}`'
+        :route='$route.params.id'
          />
      
     </div>

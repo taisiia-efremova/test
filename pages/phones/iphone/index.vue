@@ -13,6 +13,7 @@
 <script>
 import json from '../../../db/database.json';
 import Card from '~/components/Card';
+
 export default {
  components: {
     Card 
